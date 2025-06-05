@@ -1,0 +1,40 @@
+/* Log.css */
+
+.bg-dark-glass {
+  background: rgba(30, 30, 30, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-glass-light {
+  background: rgba(40, 40, 40, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-info {
+  background-color: #2575fc;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-info:hover {
+  background-color: #6a11cb;
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(106, 17, 203, 0.5);
+}
+
+.form-control {
+  transition: border 0.3s;
+}
+
+.form-control:focus {
+  border: 1px solid #2575fc;
+  box-shadow: 0 0 8px rgba(37, 117, 252, 0.4);
+}
+
+.form-label {
+  font-weight: 500;
+}
